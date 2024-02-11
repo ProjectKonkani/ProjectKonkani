@@ -1,0 +1,82 @@
+/* Timeline.css */
+:root {
+  --coconutPosition:15px; /* Replace with the desired value */
+}
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative; /* Add position relative */
+  align-items: center;
+     /* Align items at the bottom */
+  /* Add some margin at the bottom to accommodate the tree */
+}
+.timeline-container{
+
+  margin: 40px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  justify-content: space-between;
+}
+.timeline-container .coconut {
+
+  position: absolute;
+  top:  30px;
+  transform: translateX(var(--coconutPosition)) scale(2);
+  z-index:22;
+}
+
+
+.event {
+  color: rgb(217, 76, 76);
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 30px; /* Adjust the distance above the circular node */
+  font-size: 30px;
+  transform: translateX(-50%);
+}
+
+.timeline-node {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-node .event {
+  position: absolute;
+  top: 10;
+  left: 0;
+  width: 100%; /* Fill the entire button */
+  height: 100%; /* Fill the entire button */
+  background-color: #68426d; /* Example color */
+  border-radius: 50%; /* Make it circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-node.active .event {
+  background-color: #fbdf0a; /* Change color when active */
+}
+
+.timeline-line.active {
+  background-color: #68426d; /* Match active node color */
+}
+
+.timeline-line {
+  width: 94%; /* Adjust as needed */
+  height: 2px; /* Adjust as needed */
+  background-color: #68426d; /* Match node color */
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  left: 50%;
+  z-index: -1; /* Ensure lines are below nodes */
+}
