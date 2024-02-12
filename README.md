@@ -1,5 +1,5 @@
 # Project Konkani
-  This project is made with the collaboration students from ___ and the students of MBCET. 
+  This project is made with the collaboration from students of ___ and the students of Mar Baselios College of Engineering and Technology. 
 
 # Project Briefing
   This Project is simple static page but with an AIM to bring awarness to the society about the comman-natural language of Goa: Konkani
