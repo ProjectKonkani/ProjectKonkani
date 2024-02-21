@@ -1,5 +1,5 @@
 # Project Konkani
-  This project is made with the collaboration from students of ___ and the students of Mar Baselios College of Engineering and Technology. 
+  This project is made with the collaboration from students of Sophia-Smt. Manorama Devi Somani College and the students of Mar Baselios College of Engineering and Technology. 
 
 # Project Briefing
   This Project is simple static page but with an AIM to bring awarness to the society about the comman-natural language of Goa: Konkani
